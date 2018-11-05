@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Site Title</title>
+    <link>https://yourdomain.com/blog/</link>
+    <description>Recent content in Blogs on Site Title</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 31 Dec 1999 11:59:59 -0800</lastBuildDate>
+    
+	<atom:link href="https://yourdomain.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Let&#39;s Party</title>
+      <link>https://yourdomain.com/blog/1999-12-31-lets-party/</link>
+      <pubDate>Fri, 31 Dec 1999 11:59:59 -0800</pubDate>
+      
+      <guid>https://yourdomain.com/blog/1999-12-31-lets-party/</guid>
+      <description>This is the post body, where I write about our last chance to party before the Y2K bug destroys us all.</description>
+    </item>
+    
+  </channel>
+</rss>
