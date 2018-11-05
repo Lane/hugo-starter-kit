@@ -3,6 +3,12 @@ language: node_js
 node_js:
   - "lts/*"
 
+before_install:
+  sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+  sudo apt-get update
+  sudo apt-get install gcc-4.9
+  sudo apt-get upgrade libstdc++6
+
 install:
   # install latest release version
   - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/hugo_extended_[0-9\._]*Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
