@@ -1,4 +1,4 @@
-# Hugo Starter Kit
+# Hugo + Netlify CMS + Travis CI Starter Kit
 Super-charged [Hugo](https://gohugo.io) development!
 
 ## Features
@@ -11,8 +11,10 @@ Super-charged [Hugo](https://gohugo.io) development!
 * [Node.js](https://nodejs.org/) (v8.12.0 or later)
 
 ## Getting started
-* Clone the repo by running ``git clone https://github.com/donnyburnside/hugo-starter-kit.git``
+* Fork this repository the repo and clone the fork to your local machine
 * Run ``npm install`` to install the necessary NPM packages
+* Edit `/static/admin/config.yml` to point to your GitHub repository
+* Activate on Travis CI and add `GITHUB_TOKEN`, `GITHUB_USERNAME`, and `GITHUB_EMAIL` environment variables.
 * That's it! You're ready to rock, just check the commands section below
 
 ## Commands
@@ -27,4 +29,4 @@ Super-charged [Hugo](https://gohugo.io) development!
 This is intentional - no libraries or default styles are included with this project.
 
 ## Contributors
-[Donny Burnside](http://donnyburnside.com/)
+* Forked from starter kit by [Donny Burnside](http://donnyburnside.com/)
